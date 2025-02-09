@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-image: radial-gradient(#3235FA, #3375FA);
+    overflow: hidden;
+}
+
+::-webkit-scrollbar {
+    background-color: transparent;
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    height: 20px;
+    background-color: #99BBFA;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.container {
+    margin-top: 100px;
+    width: 500px;
+    height: 80vh;
+    overflow-y: scroll;
+    color: white;
+
+    & > h1 {
+        margin-bottom: 30px;
+    }
+
+    & .blog-container {
+        margin-bottom: 30px;
+    }
+}
+
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    height: 6%;
+    width: 100%;
+    background-image: radial-gradient(#464CFA, #4786FA);
+
+    & a {
+        color: #7EB6FA;
+        text-decoration: none;
+    }
+
+    & button {
+        width: 30px;
+        height: 30px;
+        font-size: 1rem;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 25%;
+        border-radius: 25%;
+        color: #7EB6FA;
+        background-image: radial-gradient(#2A46FA, #2B88FA);
+        border: 2px solid #3744A5;
+        cursor: pointer;
+    }
+
+}
+
+@media screen and (min-width: 600px) {
+
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 992px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+
+}
